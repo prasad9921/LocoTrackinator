@@ -1,0 +1,95 @@
+<%- include('partials/header'); -%>
+
+
+<% if(teachers.length>0) { %>
+<h3>Teaching Staff</h3>
+<table border="2">
+        <tr>
+                <th>Name</th>
+                <th>ID</th>
+                <th>Branch</th>
+                <th>Mail ID</th>
+                <th>Location</th>
+        </tr>
+        <% for(var i=0; i<teachers.length;i++) { %>
+                <tr>
+                  <td><%= teachers[i].name %></td>
+                  <td><%= teachers[i].id %></td>
+                  <td><%= teachers[i].branch %></td>
+                  <td><%= teachers[i].email %></td>
+                  <td><%= teachers[i].location %></td>
+                </tr>
+              <% } %>
+        
+</table>
+
+<% } else { %>
+        
+      <% } %>
+
+
+      <% if(students.length>0) { %>
+        <h3>Students</h3>
+        <table border="2">
+                <tr>
+                        <th>Name</th>
+                        <th>ID</th>
+                        <th>Branch</th>
+                        <th>Mail ID</th>
+                        <th>Location</th>
+                </tr>
+                <% for(var i=0; i<students.length;i++) { %>
+                        <tr>
+                          <td><%= students[i].name %></td>
+                          <td><%= students[i].id %></td>
+                          <td><%= students[i].branch %></td>
+                          <td><%= students[i].email %></td>
+                          <td><%= students[i].location %></td>
+                        </tr>
+                      <% } %>
+                
+        </table>
+        
+        <% } else { %>
+                
+              <% } %>
+
+              
+
+<% if(managers.length>0) { %>
+        <h3>Non Teaching Staff</h3>       
+<table border="2">
+        <tr>
+                <th>Name</th>
+                <th>ID</th>
+                <th>Branch</th>
+                <th>Mail ID</th>
+                <th>Location</th>
+        </tr>
+        <% for(var i=0; i<managers.length;i++) { %>
+                <tr>
+                        <td><%= managers[i].name %></td>
+                        <td><%= managers[i].id %></td>
+                        <td><%= managers[i].branch %></td>
+                        <td><%= managers[i].email %></td>
+                        <td><%= managers[i].location %></td>
+                </tr>
+        <% } %>
+                
+</table>
+        
+<% } else { %>
+        
+        <% } %>
+        
+
+        <% if(teachers.length==0 && managers.length==0  ) { %>
+
+                <h3>Faculty Not present</h3>
+                
+                        
+        <% } else { %>
+                                
+        <% } %>
+                
+                

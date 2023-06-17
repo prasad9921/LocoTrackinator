@@ -1,0 +1,26 @@
+This is a Desktop application of the LocoTrackinator project. 
+
+What does this do?
+    This is a Desktop application used to connect to the database and retrive data from it.
+    You can search for the locations of existing personals using this application.
+    For registred personals you can also send mail intimating your arrival(Mail feature isnt generic as of now and can be made user specific in later progressions)
+How to use?
+    Just open the .exe file (no need to install anything) and select your category form the existing(Student or Faculty or Registration)
+    Students get access to search for the locations of Faculty 
+    Faculty needs to login (Registred previously atleast once) using their credentials and then gets to access location of other faculty and also students.
+    Registration is used to register a new User who has been accedpted by the Organizing depatrment.
+When to use?
+    When you are in a need of meeting certain person you can check for his/her location in the organisition and if that person is 
+    registred you can also intimate them about an arrival. Checking about location makes finding the person easier and less time consuming than usual.
+Why to use?
+    This is a light weight application which does not need to be installed. Just opening the file is sufficient to run the application.
+    Certain organisitions restrict usage  of mobile phones in their area of work , so a simple Desktop application sounds resanable
+    as Desktops / Laptops are uttlised for the work purpouses and are readily available.
+Is this Secure?
+    Yes, it is secure since all the conversation between application and the database are encrypted.
+    Even though any unexpected incidents occured at the database side, a backup can be restore immediately by the Organizing depatrment
+    so, rest assured nothing unappropriate can happen.
+What is that so-called Organizing depatrment?
+    This is a depatrment that works to ensure proper working of the Database, make new Registrations possible and recovery of Lost Accounts possible.
+
+The LocoTrackinator.exe is working and is ready but isn't deployed yet and also the source code contains sensitive information related to mail and key of database, Please send your request of usage to vonvoyage9125@gmail.com to access the LocoTrackinator.exe.  

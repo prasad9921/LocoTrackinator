@@ -1,0 +1,7 @@
+nov 26: created home page and added carousel with images
+images
+nov 27: created contactpage 
+nov 28: created login page
+nov 29 : created signup page
+page
+nov 30: created about page
